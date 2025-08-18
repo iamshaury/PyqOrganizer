@@ -31,8 +31,9 @@ const OrganizerScreen = ({ onLogout }) => {
     }
 
     try {
+      const apiUrl = import.meta.env.VITE_API_URL;
       const token = localStorage.getItem('token');
-      const response = await axios.post('http://localhost:5000/api/organize', formData, {
+      const response = await axios.post(`${apiUrl}/api/organize`, formData, {
         headers: { 
           'Content-Type': 'multipart/form-data', 
           'Authorization': `Bearer ${token}` 

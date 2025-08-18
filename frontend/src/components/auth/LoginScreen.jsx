@@ -18,9 +18,10 @@ const LoginScreen = ({ onLogin }) => {
     setMessage('');
     setIsLoading(true);
     
+    const apiUrl = import.meta.env.VITE_API_URL;
     const endpoint = isLogin ? '/login' : '/register';
     try {
-      const response = await axios.post(`http://localhost:5000/api/users${endpoint}`, { email, password });
+      const response = await axios.post(`${apiUrl}/api/users${endpoint}`, { email, password });
       if (isLogin) {
         localStorage.setItem('token', response.data.token);
         onLogin();
