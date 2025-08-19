@@ -4,12 +4,23 @@
 
 A modern web application that uses artificial intelligence to automatically organize Previous Year Questions (PYQs) from PDF files according to your course syllabus. Built with a beautiful dark theme and intuitive user interface.
 
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Visit_Now-brightgreen?style=flat-square)](https://pyqorganizer-frontend.onrender.com)
 ![PYQ Organizer](https://img.shields.io/badge/Status-Active-brightgreen)
 ![React](https://img.shields.io/badge/React-18.2.0-blue)
 ![Node.js](https://img.shields.io/badge/Node.js-Latest-green)
 ![Tailwind](https://img.shields.io/badge/Tailwind-CSS-blue)
 
 ## ✨ Features
+###  📸 Screenshots
+
+### Organized Questions
+
+<img width="909" height="1335" alt="pyqorganizer-frontend onrender com_" src="https://github.com/user-attachments/assets/1a99d07c-8ed2-446e-b558-4cc32f251144" />
+
+
+### Organize Question Papers
+
+<img width="1903" height="974" alt="Screenshot 2025-08-19 093810" src="https://github.com/user-attachments/assets/dfa89618-d5a4-4076-8d8d-5c3ff01a3b7c" />
 
 ### 🎯 **Core Functionality**
 - **AI-Powered Organization**: Automatically categorizes questions by syllabus units
@@ -164,25 +175,6 @@ PyqOrganizer/
 - Browse organized questions in collapsible sections
 - Each unit shows question count and expandable content
 - Smooth scrolling through long question lists
-
-## 🎨 Design Features
-
-### **Color Palette**
-- **Primary**: Purple to Pink gradients (`from-purple-600 to-pink-600`)
-- **Background**: Dark gradients (`from-gray-900 via-gray-800 to-black`)
-- **Cards**: Semi-transparent gray with backdrop blur
-- **Text**: White primary, gray secondary tones
-
-### **Typography**
-- **Font**: Inter (system fallbacks included)
-- **Hierarchy**: Clear heading and body text distinction
-- **Readability**: Optimized line heights and spacing
-
-### **Animations**
-- **Fade-in**: Smooth component entrance animations
-- **Hover Effects**: Interactive button and card states
-- **Loading Spinners**: Custom purple-themed loading indicators
-- **Accordion Transitions**: Smooth expand/collapse animations
 
 ## 🔧 Development
 
